@@ -1,75 +1,60 @@
-# React + TypeScript + Vite
+# Leteisha Hall — Data & AI Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio showcasing my work across data analysis, artificial intelligence, machine learning and intelligent systems.
 
-Currently, two official plugins are available:
+I am a Data Analyst with professional experience working with engineering and operational data, alongside an MSc in Artificial Intelligence with Distinction.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Featured Project
 
-## React Compiler
+### AI-Enabled Digital Twin for Hydraulic Fault Detection
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+My MSc research project explored how a digital twin and machine learning could be combined to detect faults within a simulated hydraulic subsystem.
 
-## Expanding the ESLint configuration
+The project involved:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Building a hydraulic system simulation in Python
+- Simulating pressure and flow sensor behaviour over time
+- Modelling normal, leak and valve-stuck operating conditions
+- Generating synthetic sensor datasets
+- Engineering statistical and dynamic features from time-series data
+- Training and evaluating Logistic Regression and Random Forest classifiers
+- Developing an interactive Streamlit interface for simulation and fault prediction
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+The project also explored the limitations of synthetic training data and the importance of validating fault-detection models against real industrial data.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Technologies
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+**Data & AI**
+- Python
+- Machine Learning
+- Data Analysis
+- Feature Engineering
+- Digital Twin Simulation
 
-```
+**Professional Data Tools**
+- SQL
+- Excel
+- Power Query
+- Power BI
+- ERP / Epicor
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+**Portfolio**
+- React
+- TypeScript
+- Vite
+- Vercel
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Portfolio
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+The portfolio includes a detailed case study of the hydraulic digital twin project, including the system architecture, synthetic sensor behaviour, machine-learning methodology, results and interactive application.
 
-```
+## About Me
+
+I am interested in opportunities across data, artificial intelligence and technology where I can combine analytical problem-solving with continued technical development.
+
+Based in Birmingham, UK.
+
+## Contact
+
+- LinkedIn: [Leteisha Hall](https://www.linkedin.com/in/leteishahall)
+- Portfolio: [View Portfolio](ai-data-portfolio-eight.vercel.app)
